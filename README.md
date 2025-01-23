@@ -13,3 +13,4 @@
 10. Red-Black Tree Search (O(log n)) <!--红黑树查找，适用于动态数据集-->
 11. Breadth-First Search, BFS (O(V+E) v:node e:edge) <!--广度优先搜索，v是节点数，e是边数-->
 12. Depth-First Search, DFS (O(V+E) v:node e:edge) <!--深度优先搜索，v是节点数，e是边数-->
+13. Binary Search Tree, BST (best: O(log n), worst: O(n)) <!--二叉搜索树，没有对树进行平衡处理，不适用于有序数组，有序数组会让树退化为链表，每个节点的值大于其左子树的所有节点值，小于其右子树的所有节点值-->

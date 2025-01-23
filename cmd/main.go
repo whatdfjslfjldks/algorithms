@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	r := searchAlgorithms.BlockSearch(number.Numbers, 150)
-	fmt.Println("dsf:", r)
+	r := searchAlgorithms.BinarySearchTree(number.DisOrderedNumbers, 133)
+	fmt.Println("result is : ", r)
 }
