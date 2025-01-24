@@ -6,7 +6,14 @@ import (
 	"practice/internal/pkg/number"
 )
 
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
+
 func main() {
-	r := searchAlgorithms.BinarySearchTree(number.DisOrderedNumbers, 133)
+	r := searchAlgorithms.AVLTreeSearch(number.DisOrderedNumbers, 133)
 	fmt.Println("result is : ", r)
+
 }

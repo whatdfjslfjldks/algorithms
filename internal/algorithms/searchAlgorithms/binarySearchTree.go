@@ -4,10 +4,11 @@ import "fmt"
 
 // TreeNode defines a node in the tree
 type TreeNode struct {
-	val   int
-	index int
-	left  *TreeNode
-	right *TreeNode
+	val    int
+	index  int
+	left   *TreeNode
+	right  *TreeNode
+	height int
 }
 
 // insert inserts a value into the tree
